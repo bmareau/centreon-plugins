@@ -175,7 +175,7 @@ my $mapping2 = {
     ltmNodeAddrStatServerCurConns => { oid => '.1.3.6.1.4.1.3375.2.2.4.2.3.1.9' },
 };
 my $oid_ltmNodeAddrName = '.1.3.6.1.4.1.3375.2.2.4.1.2.1.17'; # old
-my $oid_ltmNodeAddrStatusName = '.1.3.6.1.4.1.3375.2.2.4.3.2.1.7'; # new
+my $oid_ltmNodeAddrStatusName = '.1.3.6.1.4.1.3375.2.2.4.2.3.1.7'; # new
 
 sub manage_selection {
     my ($self, %options) = @_;
